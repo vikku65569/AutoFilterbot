@@ -1,9 +1,9 @@
 {
     "name": "PROFESSOR-BOT",
     "description": "The Telegram Autofilter Bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+    "logo": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "repository": "https://github.com/Darkksoul/AutoFilterbot",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -39,8 +39,8 @@
             "required": false
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
-            "required": false
+            "description": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
+            "required": true
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -57,7 +57,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "File Namke : {file_name}  🔘 size - {file_size} • ❰ @DevilServers ❱ •",
             "required": false
         },
         "DATABASE_URL": {
@@ -76,7 +76,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "DevilServers",
             "required": false
         },
         "IMDB": {
@@ -120,8 +120,7 @@
             "required": false
         },
         "WELCOM_PIC": {
-            "description": "Welcome message pic (telegraph link)",
-            "value": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
+            "description": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
