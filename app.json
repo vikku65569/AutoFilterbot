@@ -3,7 +3,7 @@
     "description": "The Telegram Autofilter Bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/Darkksoul/AutoFilterbot",
+    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -39,8 +39,8 @@
             "required": false
         },
         "PICS": {
-            "description": "https://te.legra.ph/file/142cfa1f05626acf24241.jpg",
-            "required": true
+            "description": "Add some telegraph link of pictures .",
+            "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -57,7 +57,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "File Namke : {file_name}  🔘 size - {file_size} • ❰ @DevilServers ❱ •",
+            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
             "required": false
         },
         "DATABASE_URL": {
@@ -76,7 +76,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "DevilServers",
+            "value": "MKN_BOTZ_DISCUSSION_GROUP",
             "required": false
         },
         "IMDB": {
@@ -92,12 +92,12 @@
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
             "value": "<b>Qᴜᴇʀʏ: {query}</b>\n\n🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>\n🎭 Gᴇɴʀᴇꜱ: {genres}\n📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10",        
-            "required": true
+            "required": false
         }, 
         "IMDB_DELET_TIME": {
             "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
             "value": "300",
-            "required": true  
+            "required": false  
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
@@ -120,8 +120,9 @@
             "required": false
         },
         "WELCOM_PIC": {
-            "description": "https://te.legra.ph/file/142cfa1f05626acf24241.jpg",
-            "required": true
+            "description": "Welcome message pic (telegraph link)",
+            "value": "",
+            "required": false
         },
         "WELCOM_TEXT": {
             "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
@@ -163,8 +164,3 @@
             {"url": "heroku/python"}
         ]      
 }
-
-
-
-
-
