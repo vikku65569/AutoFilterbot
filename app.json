@@ -121,7 +121,7 @@
         },
         "WELCOM_PIC": {
             "description": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
-            "required": false
+            "required": true
         },
         "WELCOM_TEXT": {
             "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
