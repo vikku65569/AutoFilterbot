@@ -121,7 +121,7 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
